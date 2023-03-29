@@ -105,3 +105,24 @@ a {
     color-scheme: dark;
   }
 }
+
+.card {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  flex-direction: column;
+  width: 80%;
+  margin: 1rem auto;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+.card > p {
+  font-size: 10px;
+  color: gray;
+}
+
+.card > h3 {
+  color: black;
+}
